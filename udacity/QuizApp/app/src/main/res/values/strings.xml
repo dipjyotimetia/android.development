@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="submitButton">Submit</string>
+
+    <!--addition-->
+    <string name="addition">What is 1 + 1?</string>
+    <string name="answer">Enter your answer here!</string>
+
+    <!--subtraction-->
+    <string name="subtraction">What is 10 - 5?</string>
+    <string name="subtraction1">4</string>
+    <string name="subtraction2">5</string>
+    <string name="subtraction3">6</string>
+    <string name="subtraction4">7</string>
+
+    <!--multiplication-->
+    <string name="even">Please check all even numbers.</string>
+    <string name="thirteen">13</string>
+    <string name="eighteen">18</string>
+    <string name="fifteen">15</string>
+    <string name="twenty">20</string>
+
+    <!--division-->
+    <string name="odd">Please check all odd numbers.</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+
+</resources>

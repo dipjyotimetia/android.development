@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Musical structure</string>
+    <string name="playlist">Playlist</string>
+    <string name="artist">Artists</string>
+    <string name="songs">Songs</string>
+    <string name="albums">Albums</string>
+    <string name="main">Go Back</string>
+    <string name="album_one">Album one</string>
+    <string name="album_two">Album two</string>
+    <string name="album_three">Album three</string>
+    <string name="album_four">Album four</string>
+    <string name="album_five">Album five</string>
+    <string name="song_one">Song one</string>
+    <string name="song_two">Song two</string>
+    <string name="song_three">Song three</string>
+    <string name="song_four">Song four</string>
+    <string name="song_five">Song five</string>
+    <string name="artist_one">Artist one</string>
+    <string name="artist_two">Artist two</string>
+    <string name="artist_three">Artist three</string>
+    <string name="artist_four">Artist four</string>
+    <string name="artist_five">Artist five</string>
+    <string name="playlist_one">Playlist one</string>
+    <string name="playlist_two">Playlist two</string>
+    <string name="playlist_three">Playlist three</string>
+    <string name="playlist_four">Playlist four</string>
+    <string name="playlist_five">Playlist five</string>
+</resources>

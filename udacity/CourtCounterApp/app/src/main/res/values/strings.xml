@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Court Counter App</string>
+
+    <!--Team A-->
+    <string name="teamA">Team A</string>
+    <string name="teamAValue">0</string>
+    <string name="teamAPointsOne">+1 POINTS</string>
+    <string name="teamAPointTwo">+2 POINTS</string>
+    <string name="teamAPointThree">+3 POINTS</string>
+
+    <!--Team B-->
+    <string name="teamB">Team B</string>
+    <string name="teamBValue">0</string>
+    <string name="teamBPointOne">+1 POINTS</string>
+    <string name="teamBPointTwo">+2 POINTS</string>
+    <string name="teamBPointThree">+3 POINTS</string>
+
+
+    <string name="resetButton">RESET</string>
+
+</resources>

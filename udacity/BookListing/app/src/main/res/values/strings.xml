@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Book Listing</string>
+    <string name="description">Enter book title in above search box and click \'Search\' button.</string>
+    <string name="search_books">Enter book title</string>
+    <string name="search_button">Search</string>
+    <string name="search_book">Find Books</string>
+    <string name="search_field">Enter text to search for books</string>
+</resources>

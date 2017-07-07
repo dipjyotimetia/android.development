@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.sayem.musicalstructure.SongsActivity">
+
+    <Button
+        android:id="@+id/main"
+        style="@style/CategoryStyle"
+        android:background="@color/albums"
+        android:text="@string/main"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Song detail screen"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="50dp"
+        android:id="@+id/songsDetailScreen"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List of songs"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:id="@+id/songsTitle"
+        android:layout_below="@+id/songsDetailScreen"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/songsDetailScreen"
+        android:layout_alignEnd="@+id/songsDetailScreen" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/song_one"
+        android:id="@+id/songOne"
+        android:layout_below="@+id/songsTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/song_two"
+        android:id="@+id/songTwo"
+        android:layout_below="@+id/songOne"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/song_three"
+        android:id="@+id/songThree"
+        android:layout_below="@+id/songTwo"
+        android:layout_alignRight="@+id/songTwo"
+        android:layout_alignEnd="@+id/songTwo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/song_four"
+        android:id="@+id/songFour"
+        android:layout_below="@+id/songThree"
+        android:layout_alignRight="@+id/songThree"
+        android:layout_alignEnd="@+id/songThree" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/song_five"
+        android:id="@+id/songFive"
+        android:layout_below="@+id/songFour"
+        android:layout_alignRight="@+id/songFour"
+        android:layout_alignEnd="@+id/songFour" />
+
+</RelativeLayout>

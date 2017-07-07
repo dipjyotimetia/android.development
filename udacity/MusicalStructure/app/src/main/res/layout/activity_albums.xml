@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.sayem.musicalstructure.AlbumsActivity">
+
+    <Button
+        android:id="@+id/main"
+        style="@style/CategoryStyle"
+        android:background="@color/albums"
+        android:text="@string/main"
+        android:layout_alignParentBottom="true"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Album detail screen"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="50dp"
+        android:id="@+id/screenTitle"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List of albums"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:id="@+id/albumTitle"
+        android:layout_below="@+id/screenTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignRight="@+id/screenTitle"
+        android:layout_alignEnd="@+id/screenTitle" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/album_one"
+        android:id="@+id/albumOne"
+        android:layout_below="@+id/albumTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/album_two"
+        android:id="@+id/albumTwo"
+        android:layout_below="@+id/albumOne"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/album_three"
+        android:id="@+id/albumThree"
+        android:layout_below="@+id/albumTwo"
+        android:layout_alignRight="@+id/albumTwo"
+        android:layout_alignEnd="@+id/albumTwo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/album_four"
+        android:id="@+id/albumFour"
+        android:layout_below="@+id/albumThree"
+        android:layout_alignRight="@+id/albumThree"
+        android:layout_alignEnd="@+id/albumThree" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/album_five"
+        android:id="@+id/albumFifth"
+        android:layout_below="@+id/albumFour"
+        android:layout_alignRight="@+id/albumFour"
+        android:layout_alignEnd="@+id/albumFour" />
+
+</RelativeLayout>

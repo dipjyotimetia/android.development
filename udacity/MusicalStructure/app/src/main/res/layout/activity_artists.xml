@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.sayem.musicalstructure.ArtistsActivity">
+
+    <Button
+        android:id="@+id/main"
+        style="@style/CategoryStyle"
+        android:background="@color/albums"
+        android:text="@string/main"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Artist detail screen"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="50dp"
+        android:id="@+id/artistScreenTitle"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List of artist"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:id="@+id/artistTitle"
+        android:layout_below="@+id/artistScreenTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignRight="@+id/screenTitle"
+        android:layout_alignEnd="@+id/screenTitle" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/artist_one"
+        android:id="@+id/artistOne"
+        android:layout_below="@+id/artistTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/artist_two"
+        android:id="@+id/artistTwo"
+        android:layout_below="@+id/artistOne"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/artist_three"
+        android:id="@+id/artistThree"
+        android:layout_below="@+id/artistTwo"
+        android:layout_alignRight="@+id/artistTwo"
+        android:layout_alignEnd="@+id/artistTwo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/artist_four"
+        android:id="@+id/artistFour"
+        android:layout_below="@+id/artistThree"
+        android:layout_alignRight="@+id/artistThree"
+        android:layout_alignEnd="@+id/artistThree" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/artist_five"
+        android:id="@+id/artistFifth"
+        android:layout_below="@+id/artistFour"
+        android:layout_alignRight="@+id/artistFour"
+        android:layout_alignEnd="@+id/artistFour" />
+
+</RelativeLayout>

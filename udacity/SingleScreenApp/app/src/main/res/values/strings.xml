@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Single Screen App</string>
+    <string name="business_name">Deli 77</string>
+    <string name="summery">Deli 77 -is a delicatessen serving the beautiful people of Leeds freshly prepared food daily such as breakfast, toasties, sandwiches, panini, steaks, jacket potatoes, hot drinks and many more mouth watering dishes.</string>
+    <string name="mondayHour">Mon: 8:00 am - 5:00 pm</string>
+    <string name="fridayHour">Fri: 8:00 am - 5:00 pm</string>
+    <string name="saturdayHour">Sat: 10:00 am - 4:00 pm</string>
+    <string name="phoneNumber">+44 113 345 5362</string>
+    <string name="website">http://www.deli77.co.uk/</string>
+    <string name="businessAddress">83A Wellington Road</string>
+    <string name="businessCity">Leeds, England</string>
+</resources>
